@@ -14,6 +14,7 @@ fixtures:
     rsyslog: "https://github.com/saz/puppet-rsyslog.git"
     nfs: "https://github.com/echocat/puppet-nfs.git"
     motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
+    wget: "https://github.com/maestrodev/puppet-wget.git"
 
   symlinks:
     role_appl: "#{source_dir}"
