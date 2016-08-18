@@ -15,6 +15,7 @@ fixtures:
     nfs: "https://github.com/echocat/puppet-nfs.git"
     motd: "https://github.com/puppetlabs/puppetlabs-motd.git"
     wget: "https://github.com/maestrodev/puppet-wget.git"
+    gai: "https://github.com/smoeding/puppet-gai.git"
 
   symlinks:
     role_appl: "#{source_dir}"
