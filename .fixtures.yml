@@ -3,9 +3,11 @@ fixtures:
     stdlib:
       repo:  "https://github.com/puppetlabs/puppetlabs-stdlib.git"
       ref: "4.12.0"
+    ntp:
+      repo: "https://github.com/puppetlabs/puppetlabs-ntp.git"
+      ref: "4.2.0"
     profile_base: "https://github.com/relybv/dirict-profile_base.git"
     profile_apache: "https://github.com/relybv/dirict-profile_apache.git"
-    ntp: "https://github.com/puppetlabs/puppetlabs-ntp.git"
     rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
     apache: "https://github.com/puppetlabs/puppetlabs-apache.git"
     concat:
