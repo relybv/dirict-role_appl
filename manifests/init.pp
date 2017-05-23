@@ -17,4 +17,6 @@ class role_appl
   include ::profile_beats::rspec_monitor
   include ::profile_apache
   include ::profile_apache::rspec_monitor
+  include ::profile_mcollective
+  include ::profile_mcollective::rspec_monitor
 }

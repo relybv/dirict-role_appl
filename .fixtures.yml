@@ -13,6 +13,10 @@ fixtures:
     profile_telegraf: "https://github.com/relybv/rely-profile_telegraf.git"
     profile_beats: "https://github.com/relybv/rely-profile_beats.git"
     filebeat: "https://github.com/pcfens/puppet-filebeat.git"
+    profile_mcollective: "https://github.com/relybv/rely-profile_mcollective.git"
+    rabbitmq: "https://github.com/puppetlabs/puppetlabs-rabbitmq.git"
+    staging: "git://github.com/voxpupuli/puppet-staging.git"
+    erlang: "git://github.com/garethr/garethr-erlang.git"
     apache: "https://github.com/puppetlabs/puppetlabs-apache.git"
     concat:
       repo: "git://github.com/puppetlabs/puppetlabs-concat.git"
