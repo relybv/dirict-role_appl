@@ -68,4 +68,4 @@ echo "Preparing modules"
 cp -a /root/role_appl/spec/fixtures/modules/* $MODULEDIR
 
 echo "Run puppet apply"
-/usr/local/bin/puppet apply -e "include role_appl"
+/usr/local/bin/puppet apply -e "include role_appl" --write-catalog-summary
