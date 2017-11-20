@@ -19,6 +19,4 @@ class role_appl
   include ::profile_apache::rspec_monitor
   include ::profile_mcollective
   include ::profile_mcollective::rspec_monitor
-  include ::profile_redis
-  include ::profile_redis::rspec_monitor
 }
