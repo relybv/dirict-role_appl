@@ -8,7 +8,7 @@ fixtures:
       ref: "4.2.0"
     profile_base: "https://github.com/relybv/dirict-profile_base.git"
     profile_apache: "https://github.com/relybv/dirict-profile_apache.git"
-    rspec_monitor: "git://github.com/pgomersbach/test-rspec_monitor.git"
+    rspec_monitor: "git://github.com/relybv/test-rspec_monitor.git"
     telegraf: "https://github.com/datacentred/puppet-telegraf.git"
     profile_telegraf: "https://github.com/relybv/rely-profile_telegraf.git"
     profile_beats: "https://github.com/relybv/rely-profile_beats.git"
