@@ -11,12 +11,6 @@ class role_appl
   include ::profile_base
   # include rspec monitor to make rspec acceptance test available to monitor system
   include ::profile_base::rspec_monitor
-#  include ::profile_telegraf
-#  include ::profile_telegraf::rspec_monitor
-#  include ::profile_beats
-#  include ::profile_beats::rspec_monitor
   include ::profile_apache
   include ::profile_apache::rspec_monitor
-#  include ::profile_mcollective
-#  include ::profile_mcollective::rspec_monitor
 }
