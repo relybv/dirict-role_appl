@@ -21,6 +21,9 @@ fixtures:
     wget: "https://github.com/maestrodev/puppet-wget.git"
     gai: "https://github.com/smoeding/puppet-gai.git"
     archive: "https://github.com/voxpupuli/puppet-archive.git"
+    profile_users: "https://github.com/relybv/dirict-profile_users.git"
+    accounts: "https://github.com/puppetlabs/puppetlabs-accounts.git"
+    sudo: "https://github.com/saz/puppet-sudo.git"
 
   symlinks:
     role_appl: "#{source_dir}"

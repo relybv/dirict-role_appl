@@ -13,4 +13,6 @@ class role_appl
   include ::profile_base::rspec_monitor
   include ::profile_apache
   include ::profile_apache::rspec_monitor
+  include ::profile_users
+  include ::profile_users::rspec_monitor
 }
